@@ -1,6 +1,6 @@
 <?php
 
-use GrantHolle\UsernameGenerator\Username;
+use DigitalNativeDev\UsernameGenerator\Username;
 
 it('can generate a username', function () {
     $this->assertIsString(Username::make());

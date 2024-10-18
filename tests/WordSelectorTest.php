@@ -1,7 +1,7 @@
 <?php
 
-use GrantHolle\UsernameGenerator\Adjective;
-use GrantHolle\UsernameGenerator\Noun;
+use DigitalNativeDev\UsernameGenerator\Adjective;
+use DigitalNativeDev\UsernameGenerator\Noun;
 
 it('can select a random list of nouns', function () {
     $nounObj = new Noun();

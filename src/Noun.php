@@ -1,6 +1,6 @@
 <?php
 
-namespace GrantHolle\UsernameGenerator;
+namespace DigitalNativeDev\UsernameGenerator;
 
 class Noun extends WordSelector
 {
