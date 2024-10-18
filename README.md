@@ -11,7 +11,7 @@ Generate a username with flexible configuration options. For now the nouns are a
 You can install the package via composer:
 
 ```bash
-composer require grantholle/laravel-username-generator
+composer require digitalnativedev/laravel-username-generator
 ```
 
 You can optionally publish the config file with:
@@ -38,7 +38,7 @@ return [
 You can leverage your config setup to generate a username based on those options. Using the above configuration as an example, this would generate a username as `adjective-adjective-noun-##`:
 
 ```php
-use GrantHolle\UsernameGenerator\Username;
+use DigitalNativeDev\UsernameGenerator\Username;
 
 $username = Username::make();
 // grave-tame-tiger-60
@@ -47,7 +47,7 @@ $username = Username::make();
 Or, if you want to configure your username on the fly, you can use a fluent API to build your username:
 
 ```php
-use GrantHolle\UsernameGenerator\Username;
+use DigitalNativeDev\UsernameGenerator\Username;
 
 $username = (new Username)
     ->withAdjectiveCount(2)

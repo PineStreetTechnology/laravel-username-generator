@@ -1,5 +1,6 @@
 {
     "name": "digitalnativedev/laravel-username-generator",
+    "version": "1.0.0",
     "description": "Generate a random, kid-safe username. Forked from Grant Holle's original package.",
     "keywords": [
         "username",
