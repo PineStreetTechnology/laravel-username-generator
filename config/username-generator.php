@@ -51,7 +51,12 @@ return [
     | be any value available with Laravel's
     | string helpers.
     |
-    | Possible values: "lower", "upper", "studly", "kebab", "camel", "snake", "slug"
+    | "lower": "hello world", "upper": "HELLO WORLD", "studly": "HelloWorld",
+    | "kebab": "hello-world", "camel": "helloWorld", "snake": "hello_world",
+    | "slug": "my-blog-post", "title": "Hello World", "headline": "My Title",
+    | "lcfirst": "hello World", "ucfirst": "Hello world", "plural": "cats",
+    | "singular": "cat", "ucsplit": "['Camel', 'Case']", "squish": "hello world",
+    | "trim": "hello world", "ltrim": "world", "rtrim": "hello"
     |
     */
 
