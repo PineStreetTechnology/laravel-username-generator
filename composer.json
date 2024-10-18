@@ -1,17 +1,22 @@
 {
-    "name": "grantholle/laravel-username-generator",
-    "description": "Generate a random, kid-safe username.",
+    "name": "digitalnativedev/laravel-username-generator",
+    "description": "Generate a random, kid-safe username. Forked from Grant Holle's original package.",
     "keywords": [
         "username",
         "username generator"
     ],
-    "homepage": "https://github.com/grantholle/laravel-username-generator",
+    "homepage": "https://github.com/DigitalNativeDev/laravel-username-generator",
     "license": "MIT",
     "authors": [
         {
+            "name": "Digital Native Dev",
+            "email": "no-reply@digitalnative.dev",
+            "role": "Developer"
+        },
+        {
             "name": "Grant Holle",
             "email": "hollegrant@gmail.com",
-            "role": "Developer"
+            "role": "Original Author"
         }
     ],
     "require": {
@@ -29,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "GrantHolle\\UsernameGenerator\\": "src"
+            "DigitalNativeDev\\UsernameGenerator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GrantHolle\\UsernameGenerator\\Tests\\": "tests"
+            "DigitalNativeDev\\UsernameGenerator\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GrantHolle\\UsernameGenerator\\UsernameServiceProvider"
+                "DigitalNativeDev\\UsernameGenerator\\UsernameServiceProvider"
             ],
             "aliases": {
-                "Username": "GrantHolle\\UsernameGenerator\\Facades\\Username"
+                "Username": "DigitalNativeDev\\UsernameGenerator\\Facades\\Username"
             }
         }
     },
