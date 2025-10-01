@@ -1,6 +1,6 @@
 <?php
 
-namespace DigitalNativeDev\UsernameGenerator;
+namespace PineStreetTechnology\UsernameGenerator;
 
 class DigitGenerator
 {

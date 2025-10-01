@@ -1,6 +1,6 @@
 <?php
 
-namespace DigitalNativeDev\UsernameGenerator;
+namespace PineStreetTechnology\UsernameGenerator;
 
 use Illuminate\Support\Str;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace DigitalNativeDev\UsernameGenerator\Commands;
+namespace PineStreetTechnology\UsernameGenerator\Commands;
 
-use DigitalNativeDev\UsernameGenerator\Username;
+use PineStreetTechnology\UsernameGenerator\Username;
 use Illuminate\Console\Command;
 
 class UsernameCommand extends Command

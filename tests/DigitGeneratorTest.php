@@ -1,6 +1,6 @@
 <?php
 
-use DigitalNativeDev\UsernameGenerator\DigitGenerator;
+use PineStreetTechnology\UsernameGenerator\DigitGenerator;
 
 it('can generate digits', function ($count) {
     $digits = DigitGenerator::make($count);

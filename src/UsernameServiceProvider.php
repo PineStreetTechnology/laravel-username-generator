@@ -1,10 +1,10 @@
 <?php
 
-namespace DigitalNativeDev\UsernameGenerator;
+namespace PineStreetTechnology\UsernameGenerator;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use DigitalNativeDev\UsernameGenerator\Commands\UsernameCommand;
+use PineStreetTechnology\UsernameGenerator\Commands\UsernameCommand;
 
 class UsernameServiceProvider extends PackageServiceProvider
 {

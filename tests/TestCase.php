@@ -1,10 +1,10 @@
 <?php
 
-namespace DigitalNativeDev\UsernameGenerator\Tests;
+namespace PineStreetTechnology\UsernameGenerator\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use DigitalNativeDev\UsernameGenerator\UsernameServiceProvider;
+use PineStreetTechnology\UsernameGenerator\UsernameServiceProvider;
 
 class TestCase extends Orchestra
 {
